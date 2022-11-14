@@ -1,0 +1,50 @@
+.xans-myshop-orderhistoryapplyexchange .order { position:relative; }
+.xans-myshop-orderhistoryapplyexchange .order__number { overflow:hidden; padding:20px 0 20px 15px; font-size:var(--small-font); background-color:#f6f6f6; border-top:1px solid #000; }
+.xans-myshop-orderhistoryapplyexchange .order__number .date { font-weight:bold; }
+.xans-myshop-orderhistoryapplyexchange .productSelect { border-bottom:1px solid #e5e5e5; background:#f9f9f9; }
+.xans-myshop-orderhistoryapplyexchange .exchangeProduct { border-top:1px solid #000; }
+.xans-myshop-orderhistoryapplyexchange .direct { width:100%; }
+.xans-myshop-orderhistoryapplyexchange .direct .input { display:flex; }
+.xans-myshop-orderhistoryapplyexchange .direct #pickup_invoiceno { margin-left:10px; }
+
+.xans-myshop-orderhistoryapplyexchange .ec-base-table.typeList .xans-myshop-products .multiDelivery{background-color:#fbfafa;vertical-align:middle;padding:10px 20px 10px 40px;}
+.xans-myshop-orderhistoryapplyexchange .ec-base-table.typeList .xans-myshop-products .multiDelivery .inner{display: flex;align-items:center;}
+.xans-myshop-orderhistoryapplyexchange .ec-base-table.typeList .xans-myshop-products .multiDelivery .address{flex:1;display: block;padding-right:20px;}
+.xans-myshop-orderhistoryapplyexchange .ec-base-table.typeList .xans-myshop-products .multiDelivery .waybill{flex:none;display: inline-block;}
+
+.xans-myshop-orderhistoryapplyexchange .ec-base-prdInfo .description .price {margin-top: 10px; font-weight: var(--bold-font);}
+.xans-myshop-orderhistoryapplyexchange .name {line-height: 20px;}
+.xans-myshop-orderhistoryapplyexchange b {font-weight: 400;}
+.xans-myshop-orderhistoryapplyexchange .optionGroup  {font-size: var(--small-font);}
+.xans-myshop-orderhistoryapplyexchange .gBlank10Box {display: flex; align-items: center; justify-content: space-between;}
+.xans-myshop-orderhistoryapplyexchange .ec-base-button {margin: 10px 0 20px; text-align: center;}
+.xans-myshop-orderhistoryapplyexchange .prdName {font-weight: 400;}
+
+.xans-myshop-orderhistoryapplyexchange textarea { width:100%; }
+.itemAddInfo input { width:100%; }
+
+.xans-myshop-orderhistoryapplyexchange .titleArea p {font-size: var(--normal-font); text-align: left;}
+.xans-myshop-orderhistoryapplyexchange #sPrdList {margin: 70px 0;}
+
+.xans-myshop-orderhistoryapplyexchange .ec-base-table.typeWrite th {vertical-align: middle; font-weight: 400;}
+.xans-myshop-orderhistoryapplyexchange .ec-base-button.gBottom {text-align: right;}
+div.ec-base-help h4:first-child {font-size: var(--small-font); margin-bottom: 15px;}
+
+/* INPUT */
+#pickup_phone1_1, #pickup_phone2_1,
+#pickup_phone1_2, #pickup_phone1_3,
+#pickup_phone2_2, #pickup_phone2_3 { width:86px; }
+#delivery_info_offer_content { width:95%; }
+
+/********************* Mobile / Tablet *********************/
+@media all and (max-width:1024px) {
+  .xans-myshop-orderhistoryapplyexchange .productSelect { margin:20px 0 40px; padding:20px 16px; }
+  .xans-myshop-orderhistoryapplyexchange .productSelect .button { margin:15px 0 0; }
+}
+
+/********************* PC *********************/
+@media all and (min-width:1025px) {
+  .xans-myshop-orderhistoryapplyexchange .productSelect { margin:20px 0; padding:20px; }
+  .xans-myshop-orderhistoryapplyexchange .productSelect .text { display:inline-block; }
+  .xans-myshop-orderhistoryapplyexchange .productSelect .button { display:inline-block; margin-left:18px; }
+}

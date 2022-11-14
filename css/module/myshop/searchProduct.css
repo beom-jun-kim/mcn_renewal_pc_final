@@ -1,0 +1,13 @@
+#popup { width:600px; }
+.xans-myshop-ordersearchproductform .ec-base-table select { max-width:95%; }
+.xans-myshop-ordersearchproductform .ec-base-table input { width:100%; }
+.xans-myshop-ordersearchproductform .btnSearch { /* margin:10px 0 20px; */ text-align:center; }
+.xans-myshop-ordersearchproductform .resultList { border-top:1px solid #000; }
+.xans-myshop-ordersearchproductform .listCtrl { overflow:hidden; margin:0 0 10px; }
+.xans-myshop-ordersearchproductform .listCtrl .result { float:left; line-height:30px; }
+.xans-myshop-ordersearchproductform .listCtrl .select { float:right; }
+
+
+.xans-myshop-ordersearchproductform .ec-base-table th {vertical-align: middle;}
+.xans-myshop-ordersearchproductform .ec-base-button {text-align: center;}
+.xans-myshop-ordersearchproductform .btnSearchBox {display: flex; align-items: center; justify-content: center; margin-top: 20px;}
